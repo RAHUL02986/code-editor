@@ -3,7 +3,7 @@ import {Box } from '@mui/material'
 import { useContext,useState,useEffect } from "react";
 import { DataContext } from "../Context/DataProvider";
 function Result(){
-     const [ setSrc] = useState('');
+     const [Src ,setSrc] = useState('');
     const {html, css}=useContext(DataContext)
     const srcCode = `
     <html>

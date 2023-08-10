@@ -59,12 +59,12 @@ h2{
     padding-bottom: 10px;
 }
 .CodeMirror{
-    height: 340px !important;
+    height: 200px !important;
     color: #fff;
 }
 .CodeMirror-gutters{
     background:black !important;
 }
 .CodeMirror-scroll{
-    background: black;
+    background: rgb(78, 63, 63);
 }
